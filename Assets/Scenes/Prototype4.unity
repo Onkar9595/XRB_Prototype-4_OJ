@@ -1075,6 +1075,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1141312638922007802, guid: e157d92dbe0df3149bd6601aa8873a34, type: 3}
+      propertyPath: m_LeftHandSnapTurnAction.m_UseReference
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3059225902649360589, guid: e157d92dbe0df3149bd6601aa8873a34, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1094,6 +1098,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1141312638922007750, guid: e157d92dbe0df3149bd6601aa8873a34, type: 3}
   m_PrefabInstance: {fileID: 1738003546}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1793468442 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1141312638922007804, guid: e157d92dbe0df3149bd6601aa8873a34, type: 3}
+  m_PrefabInstance: {fileID: 1738003546}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793468441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1793468445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1108,6 +1123,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ActionAssets:
   - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &1793468449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793468441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf296fc962d7184ab14ad1841598d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 1793468442}
+  m_MoveSpeed: 3
+  m_EnableStrafe: 1
+  m_UseGravity: 1
+  m_GravityApplicationMode: 0
+  m_ForwardSource: {fileID: 0}
+  m_LeftHandMoveAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Hand Move
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 75f1b245-c357-48c8-9acb-8967bec9dda2
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+    m_Reference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_RightHandMoveAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Right Hand Move
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 6bf6c732-e011-46b1-acc5-b649a4ec5f10
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+    m_Reference: {fileID: 0}
 --- !u!1 &1996142906
 GameObject:
   m_ObjectHideFlags: 0
